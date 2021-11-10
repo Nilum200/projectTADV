@@ -1,0 +1,86 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Protagonist Awakens",
+      "id": 1,
+      "attr": {
+        "position": [
+          -910,
+          -23,
+          1
+        ],
+        "style": {
+          "width": 84
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Take the Sword!",
+          "id": 2,
+          "attr": {
+            "position": [
+              264,
+              -111,
+              1
+            ]
+          }
+        },
+        "11": {
+          "title": "Out the Back Window!",
+          "id": 3,
+          "attr": {
+            "position": [
+              261,
+              6,
+              2
+            ]
+          }
+        },
+        "21": {
+          "title": "Get Help!",
+          "id": 4,
+          "attr": {
+            "position": [
+              266,
+              128,
+              3
+            ]
+          }
+        },
+        "31": {
+          "title": "Wait For Help!",
+          "id": 5,
+          "attr": {
+            "position": [
+              115,
+              212,
+              4
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Game Over: Dead",
+              "id": 6,
+              "attr": {
+                "position": [
+                  116,
+                  0,
+                  1
+                ],
+                "style": {
+                  "backgroundColor": "#FF0000",
+                  "text": {
+                    "color": "#FFFFFF"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Protagonist Awakens"
+}
