@@ -4,13 +4,12 @@ class PC:
         self.name = name
         self.gender = gender
 
-
-    def GenderPicker(self, gender):
-        if gender = 'male':
+    def gender_picker(self):
+        if self.gender == 'male':
             self.gender = ['himself', 'him', 'his']
-        elif gender = 'female':
+        elif self.gender == 'female':
             self.gender = ['herself', 'her', 'hers']
-        elif gender = 'neutral':
+        elif self.gender == 'neutral':
             self.gender = ['themself', 'them', 'theirs']
 
     female = ['herself', 'her', 'hers']
@@ -23,8 +22,9 @@ player = PC()
 temp_name = input('Enter your name:')
 temp_gender = input('Are you...\n 1) Male \n 2) Female \n 3) Neutral\n Option:')
 player.name = temp_name
-player.gender = temp_gender.lower
+player.gender = temp_gender.lower()
+player.gender_picker()
 print(player.name)
-print("Your pronouns are: {himself, him, his}.")
+print("Your pronouns are: " + str(player.gender) + ".")
 
 # Establish an intro here. Eg: "{Name} finds {himself/herself} in danger..."
