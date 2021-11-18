@@ -49,6 +49,7 @@ class PC:
 # ... until win/loss conditions are encountered.
 class StoryBeats:
     @staticmethod
+
     def intro_scene(player_loader):
         # Consider: Could a for loop replace each instance of {name}, {his}, {him} with appropriate gender pronouns?
         # Might be my next little project here...
@@ -74,13 +75,11 @@ class StoryBeats:
         # Yet it works... hmm... will it cause me future problems, or is the IDE imperfect?
         player_loader.inventory.append('sword')
         player_loader.inventory.append('axe')
-        print("Weapon path test: Success.")
-        print("Did the inventory update?")
-        print(player_loader.inventory)
+        print("Test complete: Work in Progress.")
 
     # Placeholder for the window scene. Run Forest, Run!
     def window_scene(player_loader):
-        print("This is the window scene placeholder. If we got here, mission successful.")
+        print("Test complete: Work in Progress.")
 
 
 # The class responsible for handling inputs.
