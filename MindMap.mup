@@ -7,80 +7,1397 @@
       "id": 1,
       "attr": {
         "position": [
-          -910,
-          -23,
+          -1531,
+          -36,
           1
         ],
         "style": {
           "width": 84
         }
       },
+      "ideas": {}
+    },
+    "2": {
+      "title": "Find the Town Guard!",
+      "id": 10,
+      "attr": {
+        "position": [
+          -1175,
+          -43,
+          1
+        ],
+        "style": {
+          "width": 52
+        }
+      }
+    },
+    "3": {
+      "title": "Get Weapon!",
+      "id": 12,
+      "attr": {
+        "position": [
+          -1413,
+          -124,
+          1
+        ]
+      },
       "ideas": {
-        "1": {
-          "title": "Take the Sword!",
-          "id": 2,
+        "-10": {
+          "title": "Inventory\n+ Sword\n+ Axe",
+          "id": 18,
+          "attr": {
+            "style": {
+              "width": 59,
+              "backgroundColor": "#FFFF00"
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "title": "Out the Window!",
+      "id": 13,
+      "attr": {
+        "position": [
+          -1423,
+          56,
+          1
+        ]
+      },
+      "ideas": {
+        "-10": {
+          "title": "Inventory\n+ Lockpicks",
+          "id": 22,
           "attr": {
             "position": [
-              264,
-              -111,
+              137,
+              -10,
               1
-            ]
+            ],
+            "style": {
+              "backgroundColor": "#FFFF00"
+            }
           }
-        },
-        "11": {
-          "title": "Out the Back Window!",
-          "id": 3,
-          "attr": {
-            "position": [
-              261,
-              6,
-              2
-            ]
+        }
+      }
+    },
+    "5": {
+      "title": "Escape the Town!",
+      "id": 19,
+      "attr": {
+        "position": [
+          -1202,
+          169,
+          1
+        ]
+      }
+    },
+    "6": {
+      "title": "Search for Family",
+      "id": 20,
+      "attr": {
+        "position": [
+          -1202,
+          -214,
+          1
+        ]
+      }
+    },
+    "7": {
+      "title": "Intro/Prologue",
+      "id": 21,
+      "attr": {
+        "position": [
+          -1704,
+          -26,
+          1
+        ]
+      }
+    },
+    "8": {
+      "title": "Help sister!",
+      "id": 23,
+      "attr": {
+        "position": [
+          -1039,
+          162,
+          1
+        ]
+      },
+      "ideas": {}
+    },
+    "9": {
+      "title": "Leave sister!",
+      "id": 24,
+      "attr": {
+        "position": [
+          -1025,
+          307,
+          1
+        ]
+      }
+    },
+    "10": {
+      "title": "End: Survivor's Guilt",
+      "id": 25,
+      "attr": {
+        "position": [
+          -918,
+          342,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
           }
-        },
-        "21": {
-          "title": "Get Help!",
-          "id": 4,
-          "attr": {
-            "position": [
-              266,
-              128,
-              3
-            ]
+        }
+      }
+    },
+    "11": {
+      "title": "End: Heroic Messenger",
+      "id": 27,
+      "attr": {
+        "position": [
+          -914,
+          266,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      },
+      "ideas": {}
+    },
+    "12": {
+      "title": "End: Killed by Marauder",
+      "id": 29,
+      "attr": {
+        "position": [
+          -922,
+          166,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
           }
-        },
-        "31": {
-          "title": "Wait For Help!",
-          "id": 5,
+        }
+      }
+    },
+    "13": {
+      "title": "Prereq: Sword OR Axe",
+      "id": 30,
+      "attr": {
+        "position": [
+          -998,
+          216,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      },
+      "ideas": {}
+    },
+    "14": {
+      "title": "Discover the Enemy!",
+      "id": 31,
+      "attr": {
+        "position": [
+          -1042,
+          -260,
+          1
+        ]
+      }
+    },
+    "15": {
+      "title": "Follow Them!",
+      "id": 32,
+      "attr": {
+        "position": [
+          -871,
+          -331,
+          1
+        ]
+      }
+    },
+    "16": {
+      "title": "Ambush Them!",
+      "id": 33,
+      "attr": {
+        "position": [
+          -901,
+          -109,
+          1
+        ]
+      },
+      "ideas": {
+        "-10": {
+          "title": "Inventory\n- Sword",
+          "id": 45,
           "attr": {
-            "position": [
-              115,
-              212,
-              4
-            ]
-          },
-          "ideas": {
-            "1": {
-              "title": "Game Over: Dead",
-              "id": 6,
-              "attr": {
-                "position": [
-                  116,
-                  0,
-                  1
-                ],
-                "style": {
-                  "backgroundColor": "#FF0000",
-                  "text": {
-                    "color": "#FFFFFF"
-                  }
-                }
+            "style": {
+              "backgroundColor": "#FFFF00"
+            }
+          }
+        }
+      }
+    },
+    "17": {
+      "title": "Prereq: Sword",
+      "id": 35,
+      "attr": {
+        "position": [
+          -928,
+          -190,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "18": {
+      "title": "The Butcher's Shop",
+      "id": 36,
+      "attr": {
+        "position": [
+          -278,
+          -254,
+          1
+        ]
+      }
+    },
+    "19": {
+      "title": "The Back Way",
+      "id": 37,
+      "attr": {
+        "position": [
+          -34,
+          -410,
+          1
+        ]
+      }
+    },
+    "20": {
+      "title": "Confrontation",
+      "id": 38,
+      "attr": {
+        "position": [
+          35,
+          -182,
+          1
+        ]
+      }
+    },
+    "21": {
+      "title": "Break-In and Surprise Attack!",
+      "id": 39,
+      "attr": {
+        "position": [
+          -111,
+          84,
+          1
+        ]
+      },
+      "ideas": {
+        "-10": {
+          "title": "Inventory\n- Axe",
+          "id": 43,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFFF00"
+            }
+          }
+        }
+      }
+    },
+    "22": {
+      "title": "Prereq: Lockpicks",
+      "id": 40,
+      "attr": {
+        "position": [
+          -148,
+          -341,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "23": {
+      "title": "Prereq: Sally Squad",
+      "id": 41,
+      "attr": {
+        "position": [
+          -122,
+          -217,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "24": {
+      "title": "Prereq: Axe",
+      "id": 42,
+      "attr": {
+        "position": [
+          -154,
+          -146,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "25": {
+      "title": "Rescue Parents",
+      "id": 46,
+      "attr": {
+        "position": [
+          122,
+          -509,
+          1
+        ]
+      }
+    },
+    "26": {
+      "title": "Assassinate the Leader",
+      "id": 47,
+      "attr": {
+        "position": [
+          109,
+          -396,
+          1
+        ]
+      }
+    },
+    "27": {
+      "title": "End: Family First",
+      "id": 48,
+      "attr": {
+        "position": [
+          260,
+          -514,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "28": {
+      "title": "End: Naive Fool...",
+      "id": 49,
+      "attr": {
+        "position": [
+          328,
+          -451,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "29": {
+      "title": "The Wildfire",
+      "id": 51,
+      "attr": {
+        "position": [
+          -775,
+          -114,
+          1
+        ]
+      }
+    },
+    "30": {
+      "title": "Save Sally",
+      "id": 52,
+      "attr": {
+        "position": [
+          -613,
+          -190,
+          1
+        ],
+        "style": {
+          "width": 59
+        }
+      },
+      "ideas": {
+        "-10": {
+          "title": "Inventory\n+ Sally Squad",
+          "id": 62,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFFF00",
+              "text": {
+                "color": "#000000"
               }
             }
           }
         }
       }
+    },
+    "31": {
+      "title": "Save the Gun",
+      "id": 53,
+      "attr": {
+        "position": [
+          -620,
+          -43,
+          1
+        ]
+      },
+      "ideas": {
+        "-10": {
+          "title": "Inventory\n+ Town Pistol",
+          "id": 68,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFFF00"
+            }
+          }
+        }
+      }
+    },
+    "32": {
+      "title": "Regroup with the Squad",
+      "id": 59,
+      "attr": {
+        "position": [
+          -553,
+          -244,
+          1
+        ]
+      }
+    },
+    "33": {
+      "title": "Going on your own",
+      "id": 63,
+      "attr": {
+        "position": [
+          -450,
+          -129,
+          1
+        ]
+      }
+    },
+    "34": {
+      "title": "End: The Great Equalizer",
+      "id": 64,
+      "attr": {
+        "position": [
+          428,
+          -365,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "35": {
+      "title": "Prereq: Town Pistol",
+      "id": 65,
+      "attr": {
+        "position": [
+          280,
+          -382,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "36": {
+      "title": "Cries for Help!",
+      "id": 67,
+      "attr": {
+        "position": [
+          -792,
+          -271,
+          1
+        ]
+      }
+    },
+    "37": {
+      "title": "Duel to the Death",
+      "id": 69,
+      "attr": {
+        "position": [
+          176,
+          -271,
+          1
+        ]
+      }
+    },
+    "38": {
+      "title": "Negotiate",
+      "id": 70,
+      "attr": {
+        "position": [
+          175,
+          -114,
+          1
+        ]
+      }
+    },
+    "39": {
+      "title": "End: Brave, but Stupid",
+      "id": 71,
+      "attr": {
+        "position": [
+          325,
+          -308,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "40": {
+      "title": "End: The Sacrificial Hero",
+      "id": 72,
+      "attr": {
+        "position": [
+          489,
+          -239,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "41": {
+      "title": "End: Family First",
+      "id": 74,
+      "attr": {
+        "position": [
+          490,
+          -176,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "42": {
+      "title": "Prereq: Sword OR Axe",
+      "id": 75,
+      "attr": {
+        "position": [
+          315,
+          -258,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "43": {
+      "title": "Surrender Town; Spare family",
+      "id": 76,
+      "attr": {
+        "position": [
+          298,
+          -191,
+          1
+        ]
+      }
+    },
+    "44": {
+      "title": "We'll Join You",
+      "id": 78,
+      "attr": {
+        "position": [
+          328,
+          -107,
+          1
+        ]
+      }
+    },
+    "45": {
+      "title": "End: Marauder Apprentice",
+      "id": 79,
+      "attr": {
+        "position": [
+          474,
+          -116,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "46": {
+      "title": "Surrender or Die",
+      "id": 81,
+      "attr": {
+        "position": [
+          282,
+          -33,
+          1
+        ]
+      }
+    },
+    "47": {
+      "title": "End: Last One Standing",
+      "id": 82,
+      "attr": {
+        "position": [
+          417,
+          20,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "48": {
+      "title": "End: Hero of the Town",
+      "id": 83,
+      "attr": {
+        "position": [
+          590,
+          -31,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        }
+      }
+    },
+    "49": {
+      "title": "Prereq: Sword AND Axe",
+      "id": 84,
+      "attr": {
+        "position": [
+          414,
+          -30,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "50": {
+      "title": "Overwhelm Them!",
+      "id": 85,
+      "attr": {
+        "position": [
+          81,
+          165,
+          1
+        ]
+      }
+    },
+    "51": {
+      "title": "Go for the Leader!",
+      "id": 86,
+      "attr": {
+        "position": [
+          67,
+          94,
+          1
+        ]
+      }
+    },
+    "52": {
+      "title": "Prereq: Sally Squad",
+      "id": 87,
+      "attr": {
+        "position": [
+          223,
+          165,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "53": {
+      "title": "Prereq: Town Pistol",
+      "id": 88,
+      "attr": {
+        "position": [
+          212,
+          96,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#999999",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "54": {
+      "title": "End: Didn't Think That Through, Huh?",
+      "id": 89,
+      "attr": {
+        "position": [
+          -110,
+          157,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "55": {
+      "title": "End: Bloodied, but Victorious",
+      "id": 90,
+      "attr": {
+        "position": [
+          379,
+          153,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
+    },
+    "56": {
+      "title": "End: The Great Equalizer",
+      "id": 91,
+      "attr": {
+        "position": [
+          374,
+          91,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00",
+          "text": {
+            "color": "#000000"
+          }
+        }
+      }
     }
   },
-  "title": "Protagonist Awakens"
+  "title": "Protagonist Awakens",
+  "links": [
+    {
+      "ideaIdFrom": 1,
+      "ideaIdTo": 13,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 1,
+      "ideaIdTo": 12,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 12,
+      "ideaIdTo": 10,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 13,
+      "ideaIdTo": 10,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 13,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 12,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 1,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 10,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 24,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 23,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 24,
+      "ideaIdTo": 25,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 23,
+      "ideaIdTo": 27,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 23,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 20,
+      "ideaIdTo": 31,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 32,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 33,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 32,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 36,
+      "ideaIdTo": 37,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 36,
+      "ideaIdTo": 38,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 36,
+      "ideaIdTo": 39,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 37,
+      "ideaIdTo": 46,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 46,
+      "ideaIdTo": 48,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 37,
+      "ideaIdTo": 47,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 47,
+      "ideaIdTo": 49,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 51,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 51,
+      "ideaIdTo": 52,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 51,
+      "ideaIdTo": 53,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 10,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 52,
+      "ideaIdTo": 59,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 53,
+      "ideaIdTo": 63,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 47,
+      "ideaIdTo": 64,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 32,
+      "ideaIdTo": 67,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 67,
+      "ideaIdTo": 51,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 59,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 63,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 38,
+      "ideaIdTo": 69,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 69,
+      "ideaIdTo": 71,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 69,
+      "ideaIdTo": 72,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 38,
+      "ideaIdTo": 70,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 70,
+      "ideaIdTo": 76,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 76,
+      "ideaIdTo": 74,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 70,
+      "ideaIdTo": 78,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 78,
+      "ideaIdTo": 79,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 70,
+      "ideaIdTo": 81,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 81,
+      "ideaIdTo": 82,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 81,
+      "ideaIdTo": 83,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 39,
+      "ideaIdTo": 85,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 39,
+      "ideaIdTo": 86,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 39,
+      "ideaIdTo": 89,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 85,
+      "ideaIdTo": 90,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 86,
+      "ideaIdTo": 91,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ]
 }
