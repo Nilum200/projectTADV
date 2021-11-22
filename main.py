@@ -47,10 +47,8 @@ class PC:
 # Class contains story beats, each contained in a function.
 # Ideally, I can get it working such that it automates the process of going from one beat to the next...
 # ... until win/loss conditions are encountered.
-class StoryBeats:
-    @staticmethod
-
-    def intro_scene(player_loader):
+class IntroScene:
+    def intro_scene(self, player_loader, active_scene):
         # Consider: Could a for loop replace each instance of {name}, {his}, {him} with appropriate gender pronouns?
         # Might be my next little project here...
         print("{name} is a commoner, living in a small, idyllic village.".format(name=player_loader.name))
@@ -66,10 +64,12 @@ class StoryBeats:
         print("Valid choices: weapon | window")
         # and now StoryBeats picks scenes inside itself until a win or loss condition is triggered. Fabulous.
         choice = InputMethods.choose(['weapon', 'window'])
-        InputMethods.scene_picker(choice, player_loader)
+        ScenePicker.scene_picker(choice, player_loader, active_scene)
 
+
+class WeaponScene:
     # Placeholder for the weapon scene. Brave hero, aren't you?
-    def weapon_scene(player_loader):
+    def weapon_scene(self, player_loader, active_scene):
         print("Though it takes some amount of searching, you find your father's sword and mother's axe.")
         # PyCharm IDE **hates** this for some reason and is convinced it will spit out errors.
         # Yet it works... hmm... will it cause me future problems, or is the IDE imperfect?
@@ -77,8 +77,10 @@ class StoryBeats:
         player_loader.inventory.append('axe')
         print("Test complete: Work in Progress.")
 
+
+class WindowScene:
     # Placeholder for the window scene. Run Forest, Run!
-    def window_scene(player_loader):
+    def window_scene(self, player_loader, active_scene):
         print("Test complete: Work in Progress.")
 
 
@@ -103,17 +105,22 @@ class InputMethods(object):
             if not valid:
                 print("Invalid entry, please try again.")
 
-    # Scene picker checks the string input of a previous decision and then races off to fetch a scene.
-    def scene_picker(verifier, player_loader):
+
+# This class is responsible for selecting/transitioning between scenes.
+class ScenePicker(object):
+    @staticmethod
+    # This is cursed, but it works. All hail Cthulhu.
+    def scene_picker(verifier, player_loader, active_scene):
         if verifier == 'intro_scene':
-            StoryBeats.intro_scene(player_loader)
+            active_scene.intro_scene(player_loader, active_scene)
         elif verifier == 'weapon_scene':
-            StoryBeats.weapon_scene(player_loader)
+            active_scene = WeaponScene()
+            active_scene.weapon_scene(player_loader, active_scene)
         elif verifier == 'window_scene':
-            StoryBeats.window_scene(player_loader)
+            active_scene = WindowScene()
+            active_scene.window_scene(player_loader, active_scene)
         else:
             # Ideally, this should never print. Ever. If it somehow does, then I know something is profoundly busted.
-            # Naturally, I managed to trigger it once--and it helped me.
             print("Nilum, something broke here: " + str(verifier) + ".")
 
 
@@ -123,6 +130,8 @@ player = PC()
 player.pc_intro()
 # This is a flat line. I should think of how to replace this at some point, but it works--for now.
 first_choice = 'intro_scene'
-InputMethods.scene_picker(first_choice, player)
+first_scene = IntroScene()
 
-# I'm getting smarter every day. Delightful!
+ScenePicker.scene_picker(first_choice, player, first_scene)
+
+# Little by little, day by day, I carry on...
