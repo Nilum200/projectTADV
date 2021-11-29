@@ -1,0 +1,16 @@
+I temporarily store stuff in here when I need to clear it from the main Python file. Probably just all print line spam. lol
+
+print("----------")
+print("{name} is a commoner, living in a small, idyllic village in a grand fantasy kingdom.".format(name=player.name))
+print("In recent times, people have been speaking of monsters who seek to assail the kingdom at large...")
+print("... but such must be mere fairy tales, right?")
+print("----------")
+print("{name} awakens to the scent of smoke and the sounds of screaming.".format(name=player.name))
+print("The town must be under attack!")
+print("{he} knows that somewhere in the house, his parents kept a weapon for self defense...".format(he=player.name))
+print("... but {he} would have to spend time trying to find it.".format(he=player.gender[0]))
+print("Alternatively, {he} could try to slip out the back window.".format(he=player.gender[0]))
+print("What to do...")
+print("1) Weapon \n 2) Window")
+Protagonist_Awakens = input("Select: ")
+print("You have chosen: " + Protagonist_Awakens)
