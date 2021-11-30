@@ -1,0 +1,6 @@
+	Thankfully, the cries of {his} sister don't last long as a scream is suddenly cut from existence. 
+	Escaping town wasn't a difficult affair at that point as the marauders were far more interested in looting and destroying everything {he} ever knew.
+
+	{name} survived, but would spend the rest of {his} life alone. Was it worth it to survive like this?
+
+ENDING: Survivor's Guilt.

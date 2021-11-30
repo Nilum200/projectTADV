@@ -1,0 +1,7 @@
+	{name} awakens to the scent of smoke filling {his} home. There isn't much time for {him} to escape.
+	So rather than panic, {he} has to make a decision.
+	Somewhere in the house, {his} parents kept a pair of weapons hidden away for emergencies.
+	Meanwhile, {he} knows that {his} sister has a back window. Along the way, {he} could "borrow" {his} sister's lockpicks.
+	There would only be time to acquire one or the other before {he} would have to get out. No doubt the fire consuming the neighbour's house would soon be upon {him}.
+
+Choice: Get Weapon | Back Window

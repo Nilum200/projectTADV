@@ -1,0 +1,5 @@
+	On {his} way out of town, {he} overhears cries for help from several paces away. A quick glance confirmed that it was {his} sister in danger!
+	Moving in to help would mean confronting the marauder that had her cornered.
+	On the other hand, could {he} live with {himself} if {he} abandoned her?
+
+Choices: Help Sister | Leave Sister

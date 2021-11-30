@@ -1,0 +1,5 @@
+	Wielding {his} family's weapons and the element of surprise, {name} is able to overcome the marauder!
+	No longer in harm's way, {his} sister explains that she was sent out of Hillcrest by the town's Guard Captain--Sir Johnny Swordfish--to inform the king of danger.
+	Together with {his} sister, {name} manages to escape town. Though many would perish, at least {name} and {his} sister would have each other and would become heroes of the realm once the King was made aware of the marauder threat...
+
+END: HEROIC MESSENGER

@@ -1,0 +1,3 @@
+	Without a weapon, {name}'s adventure comes to a startling, anticlimactic close at the end of a Marauder's blade. A shame. Maybe {he} should rethink {his} choices in the next life...
+
+END: Death by Marauder.
