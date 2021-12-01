@@ -1,6 +1,0 @@
-	Deciding that discretion is the better part of valour, {name} makes {his} way to {his} sister's room. It doesn't take much searching to find the lockpicks, either.
-	Once out the back window, {name} contemplates on what {his} next move should be.
-	On the one hand: It might be a good idea to find the guards. They might know where to look to find {his} family, or, perhaps, {he} could offer them some help.
-	On the other hand: Getting out of town was the quickest ticket to survival, and {he} wasn't far from the edge of town.
-
-Choice: Town Guard | Escape Town
