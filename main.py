@@ -35,11 +35,11 @@ class ScenePicker(object):
         # Protagonist Awakens.
         id_01 = StandardScene(['Get Weapon', 'Back Window'], [2, 3], 'Script_Protagonist_Awakens.txt')
         # Get Weapon.
-        id_02 = GainItemScene(['Find Family', 'Town Guard'], [4, 8], 'Script_Placeholder.txt', ['sword', 'axe'])
+        id_02 = GainItemScene(['Find Family', 'Town Guard'], [4, 8], 'Script_Get_Weapon.txt', ['sword', 'axe'])
         # Out the Window.
         id_03 = GainItemScene(['Town Guard', 'Escape Town'], [4, 5], 'Script_Out_The_Window.txt', ['lockpicks'])
         # Find the Town Guard.
-        id_04 = StandardScene(['Escape Town', 'Search Town'], [5, 8], 'Script_Placeholder.txt')
+        id_04 = StandardScene(['Escape Town', 'Find Family'], [5, 8], 'Script_Town_Guard.txt')
         # Escape Town.
         id_05 = StandardScene(['Help Sister', 'Leave Sister'], [6, 7], 'Script_Escape_Town.txt')
         # Save sister.
@@ -47,19 +47,19 @@ class ScenePicker(object):
         # Leave sister.
         id_07 = EndingNoChallengeScene(script='End_Survivors_Guilt.txt')
         # Search for Family/Discover the Enemy.
-        id_08 = StandardScene(['Follow Them', 'Ambush Them'], [9, 10], 'Script_Placeholder.txt')
+        id_08 = StandardScene(['Follow Them', 'Ambush Them'], [9, 10], 'Script_Search_Family.txt')
         # Follow them.
-        id_09 = StandardScene(['Go Help', 'Butcher Shop'], [11, 14], 'Script_Placeholder.txt')
+        id_09 = StandardScene(['Go Help', 'Keep Following'], [11, 14], 'Script_Follow.txt')
         # Ambush them.
-        id_10 = AmbushScene(['Continue Story'], [11], 'Script_Placeholder.txt', 'End_Marauder.txt')
+        id_10 = AmbushScene(['Continue Story', ''], [11], 'Script_Ambush.txt', 'End_Marauder.txt')
         # The Wildfire.
-        id_11 = StandardScene(['Save Gun', 'Save Sally'], [12, 13], 'Script_Placeholder.txt')
+        id_11 = StandardScene(['Save Gun', 'Save Sally'], [12, 13], 'Script_Wildfire.txt')
         # Save the Gun/Going on your own.
-        id_12 = GainItemScene(['Continue Story'], [14], 'Script_Placeholder.txt', 'gun')
+        id_12 = GainItemScene(['Continue Story', ''], [14], 'Script_Get_Gun.txt', 'gun')
         # Save Sally/Regroup with the Squad.
-        id_13 = GainItemScene(['Continue Story'], [14], 'Script_Placeholder.txt', 'sally squad')
+        id_13 = GainItemScene(['Continue Story', ''], [14], 'Script_Sally_Squad.txt', 'sally squad')
         # The Butcher's Shop.
-        id_14 = ButcherScene([], [], 'Script_Placeholder.txt')
+        id_14 = ButcherScene([], [], 'Script_Butcher.txt')
         # The Back Way.
         id_15 = StandardScene(['Rescue Parents', 'Assassinate Leader'], [16, 17], 'Script_Placeholder.txt')
         # Rescue Parents.
