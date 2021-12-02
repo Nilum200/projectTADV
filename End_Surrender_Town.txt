@@ -1,0 +1,8 @@
+	Not wishing to risk bloodshed and thinking of {his} family, {name} took the first option on the table.
+	Though it took some later argument with Sir Johnny Swordfish, the deal was struck and the marauders returned their prisoners. In exchange, the townspeople left their town--their homes, belongings, and everything they knew--to be ransacked.
+	It was difficult on all of them, with most villagers thanking {name} for saving their lives, but the thanks were all empty...
+	... save from Sally and her gang, who gladly took in the thoughtful, intelligent villager to their ranks.
+	{name} would go on to be an outcast, as nobody would want to associate with the one who surrendered their homes and livelihoods...
+	... but, perhaps, {name} could live with that, knowing that {his} family and everyone he knew would go on to live another day.
+
+END: SURRENDER TOWN

@@ -1,0 +1,6 @@
+	... and found {himself} without any weapons of note.
+	This gave the villain a laugh, at least, as {name} scrambled out of the way of the first pair of blows before being promptly impaled and slain on the floor.
+	A very impressive decision to challenge the leader of the marauders to a duel without any weapons. Much wow. Very reason.
+	Think, {name}, think! Think better in your next life!
+
+END: DEATH BY LEADER

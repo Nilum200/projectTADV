@@ -1,0 +1,3 @@
+	... Ends with {name} being knocked back with an elbow, sent sprawling onto the floor, and then impaled by the leader's spear. An unfortunate end--but what likelihood did {he} have in overpowering the leader of the marauders without a great equalizer, anyway?
+
+END: KILLED BY LEADER.

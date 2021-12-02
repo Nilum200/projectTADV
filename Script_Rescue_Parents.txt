@@ -1,0 +1,7 @@
+	With some quick-footed work and dexterous hands, {name} set {his} parents and the rest of the prisoners free. There was no sign of {name}'s sister, as {his} parents tell {him} that she wasn't captured with them in the first place.
+	A little stealthy movement and {name} discretely got them out the back door.
+	With the prisoners rescued, {name} led them to Sir Johnny Swordfish.
+	With no further survivors left in town and the marauders still a significant threat, Sir Johnny Swordfish orders the evacuation of town.
+	The town of Hillcrest may have fallen, but at least its people would survive--and a few would never forget the subtle bravery shown by {name}.
+
+END: SAVED FAMILY

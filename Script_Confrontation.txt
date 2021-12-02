@@ -1,0 +1,8 @@
+	Backed up by Sally's Gang, {name} opts to confront the marauders directly.
+	{name} knocks on the front door of the butcher's shop. After a few choice words and some veiled threats, {he} and the gang are led to the leader--an evil, mustache twirling strongman with a spear at one side and a shield on the other.
+	"So you've come, big hero," the mustache-twirler grinned. "There's always one'o'you fools. C'mon then--what's the offer?"
+	{name} contemplated {his} options...
+	Though the leader was a powerful warrior, there was a chance at defeating him in a duel--if {name} felt {he} had the right tools for the job, anyway.
+	On the other hand, a prolonged negotiation could prove fruitful--even if it might buy the marauders more time to ransack the town.
+
+Choice: Duel | Negotiate

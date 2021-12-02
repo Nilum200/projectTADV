@@ -1,0 +1,8 @@
+	Try though {he} may, {his} words do not seem to stun the villain, who simply grinned and ordered his men into battle.
+	What resulted was a blood bath. By the time {name} was finished with it all {he} was badly wounded. Sally and her gang lay dead, as did the marauders and their leader.
+	Unfortunately, preoccupied with the battle, {name} was unable to save {his} parents from sharing the same fate as Sally's gang.
+	{name} walks out the last one standing, returning to Sir Johnny Swordfish to inform him that the threat was gone.
+	Though celebrated as a hero, {name} was haunted by the faces of all the dead and dying.
+	There was no heroism in being the last one alive. Just terrible luck.
+
+END: LAST ONE STANDING

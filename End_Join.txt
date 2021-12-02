@@ -1,0 +1,7 @@
+	Never one to turn down an offer to survive--leave alone potentially thrive--{name} agreed to join under the provision that {his} family be set free. The marauder leader was delighted and agreed to the terms.
+	It was a strange thing to help ransack the town {he} once belonged to, and a few members of Sally's gang abandoned the notion entirely, but Sally stuck around.
+	{name} quickly became the competent heir {he} deserved to be, being tutored and nurtured by the marauder leader.
+	At the same time, {name} found Sally to be more than a friend before long, as the two grew fat, happy, and wealthy together after a successful campaign of raiding and pillaging.
+	Who needs the blood of the womb when one could choose the blood of the covenant?
+
+END: JOIN THEM

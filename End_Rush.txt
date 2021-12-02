@@ -1,0 +1,10 @@
+	... {name} and Sally's gang found themselves clubbing, stabbing, slashing, and swinging for the marauders before they could truly assemble themselves. Strength was overcome by surprise, skill overcome by speed.
+	Though a few of Sally's gang were injured or killed, the surprise attack was sufficient to permit Sally and {name} to corner the leader.
+	It was a difficult scrap, but with two against one, the leader was felled.
+	Such bravery was not forgotten by the town and its people as {name} saved the prisoners--including {his} parents.
+	The gang became folktale heroes, given chances at better lives. Some moved on to join the militia, others left town in search of their destinies.
+	Sally, however, remained by {name}'s side forevermore...
+	... but such is, perhaps, a tale for another time.
+	For the time being, know that {name} became the hero of this story through quick-foot, bravery, and bloodshed.
+
+End: A TACTICAL HERO

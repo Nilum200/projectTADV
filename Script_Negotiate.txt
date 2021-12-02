@@ -1,0 +1,6 @@
+	A quick flurry of words back and forth presented a pair of options for {name}--at least insofar as the villain of the week was willing to offer.
+	The marauder was willing to release the prisoners in exchange that they surrender the town and its belongings to them.
+	He also made the offer to {name} that he was always looking for able-bodied recruits, and that {name} and {his} gang of friends would fit the bill.
+	Finally, there was a third option--one that went unsaid. That, if all options offered weren't good enough, {name} could demand his surrender...
+
+Choices: Surrender Town | Join | Demand Surrender

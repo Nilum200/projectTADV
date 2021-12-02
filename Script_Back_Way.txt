@@ -1,0 +1,6 @@
+	Having survived this long without drawing direct attention, it simply made sense to slip in the back way with {his} lockpicks.
+	{name} spies {his} parents, tied up with a handful of other prisoners. Unlike the piles of loot, the people were poorly guarded. It would be possible, then, to discretely liberate them...
+	On the other hand, the leader sat in his chair, legs kicked up on a table. Twirling his evil mustache, it was also possible to potentially kill him and send the marauders into a state of disarray, which could help the town.
+	What was the right move, here?
+
+Choices: Rescue Parents | Assassinate Leader

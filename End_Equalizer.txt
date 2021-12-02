@@ -1,0 +1,6 @@
+	... ends with a thunderous roar as the firearm is discharged. The bullet rips through the leader's gambeson and tears apart his heart, ending his life before he could even turn to face his assassin.
+	The marauders, seeing their leader fall, quickly retreat from the butcher's shop--believing themselves to be in a far greater danger than they really were.
+	Nonetheless, it provided the opportunity necessary for {name} to rescue {his} parents and make it back to Sir Johnny Swordfish. With the leader dead, there was an opportunity to take the town back and he took it.
+	Though several members of the militia perished in the attempt, the town was secured. {name} is now remembered as the savvy-fingered hero that saved the town by knowing exactly when and where to strike.
+
+END: THE GREAT EQUALIZER

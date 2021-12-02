@@ -1,0 +1,5 @@
+	... {name} quickly grew to realize that going after them alone would not work out for {him}. It was too late to retreat, so {he} lashed out like a wild animal and took a couple of marauders down with him in a pile of blood and mayhem.
+	Unfortunate.
+	Perhaps one shouldn't try to overwhelm a superior force without the numbers to back it up.
+
+END: DIE ALONE

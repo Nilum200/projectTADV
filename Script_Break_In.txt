@@ -1,0 +1,5 @@
+	A quick whack with {his} mother's axe was sufficient to break the door down which permitted a rush inside. The marauders and their leader--a mustache-twirling villain if ever there was one--were caught off guard!
+	Though the leader was equipped with a shield and a spear, there was a chance to kill him before the rest of his people could respond to save him.
+	If {name} felt particularly well-equipped, perhaps {he} could attempt to overwhelm all of them at once...
+
+Choice: Rush Leader | Overwhelm Them

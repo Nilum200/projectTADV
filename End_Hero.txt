@@ -1,0 +1,5 @@
+	Presenting both {his} father's sword and mother's axe, {name} gave a remarkable speech about the power of family. So awestruck was the villain that he simply rose to his feet and ordered his men to take what loot they had and leave out of respect to {name}'s bravery and silver tongue.
+	Such a stand of defiance was sufficient to free {his} parents along with the other prisoners, and both {name} and Sally's gang returned to the rest of the town as heroes.
+	{name} would be forever remembered as the hero of Hillcrest--saving the town, the people, and {his} family!
+
+END: HERO OF THE TOWN
