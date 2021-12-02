@@ -1,4 +1,4 @@
-	In a dangerous situation, it never hurt to be armed. {Name} decided to adhere to that philosophy and, after a quick search, found {his} mother's axe and {his} father's sword.
+	In a dangerous situation, it never hurt to be armed. {name} decided to adhere to that philosophy and, after a quick search, found {his} mother's axe and {his} father's sword.
 	Still, weapons could not fight a fire, and {name} found {himself} driven out onto the street as {his} home caught aflame.
 	Perhaps {he} should get backup by finding the town guard...
 	... Alternatively, the longer {he} waited to find {his} family, the more likely something terrible would befall them.
