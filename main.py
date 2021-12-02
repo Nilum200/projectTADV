@@ -35,7 +35,7 @@ class ScenePicker(object):
         # Protagonist Awakens.
         id_01 = StandardScene(['Get Weapon', 'Back Window'], [2, 3], 'Script_Protagonist_Awakens.txt')
         # Get Weapon.
-        id_02 = GainItemScene(['Find Family', 'Town Guard'], [4, 8], 'Script_Get_Weapon.txt', ['sword', 'axe'])
+        id_02 = GainItemScene(['Find Family', 'Town Guard'], [8, 4], 'Script_Get_Weapon.txt', ['sword', 'axe'])
         # Out the Window.
         id_03 = GainItemScene(['Town Guard', 'Escape Town'], [4, 5], 'Script_Out_The_Window.txt', ['lockpicks'])
         # Find the Town Guard.
@@ -55,35 +55,35 @@ class ScenePicker(object):
         # The Wildfire.
         id_11 = StandardScene(['Save Gun', 'Save Sally'], [12, 13], 'Script_Wildfire.txt')
         # Save the Gun/Going on your own.
-        id_12 = GainItemScene(['Continue Story', ''], [14], 'Script_Get_Gun.txt', 'gun')
+        id_12 = GainItemScene(['Continue Story', ''], [14], 'Script_Get_Gun.txt', ['gun'])
         # Save Sally/Regroup with the Squad.
-        id_13 = GainItemScene(['Continue Story', ''], [14], 'Script_Sally_Squad.txt', 'sally squad')
+        id_13 = GainItemScene(['Continue Story', ''], [14], 'Script_Sally_Squad.txt', ['sally squad'])
         # The Butcher's Shop.
         id_14 = ButcherScene([], [], 'Script_Butcher.txt')
         # The Back Way.
-        id_15 = StandardScene(['Rescue Parents', 'Assassinate Leader'], [16, 17], 'Script_Placeholder.txt')
+        id_15 = StandardScene(['Rescue Parents', 'Assassinate Leader'], [16, 17], 'Script_Back_Way.txt')
         # Rescue Parents.
-        id_16 = EndingNoChallengeScene('Script_Placeholder.txt')
+        id_16 = EndingNoChallengeScene('Script_Rescue_Parents.txt')
         # Assassinate the Leader.
-        id_17 = EndingChallengeScene('Script_Placeholder.txt', 'gun', 'Script_Placeholder.txt', 'Script_Placeholder.txt')
+        id_17 = EndingChallengeScene('Script_Assassinate_Leader.txt', 'gun', 'Script_Equalizer.txt', 'Script_Naive.txt')
         # Confrontation.
-        id_18 = StandardScene(['Duel', 'Negotiate'], [19, 20], 'Script_Placeholder.txt')
+        id_18 = StandardScene(['Duel', 'Negotiate'], [19, 20], 'Script_Confrontation.txt')
         # Duel to the Death.
-        id_19 = EndingChallengeScene('Script_Placeholder.txt', 'axe', 'Script_Placeholder.txt', 'Script_Placeholder.txt')
+        id_19 = EndingChallengeScene('Script_Duel.txt', 'axe', 'End_Sacrifice.txt', 'End_Really.txt')
         # Negotiate
-        id_20 = StandardScene(['Surrender Town', 'Join', 'Demand Surrender'], [21, 22, 23], 'Script_Placeholder.txt')
+        id_20 = StandardScene([ 'Surrender Town', 'Join', 'Demand Surrender'], [21, 22, 23], 'Script_Negotiate.txt')
         # Surrender Town, Spare Family
-        id_21 = EndingNoChallengeScene('Script_Placeholder.txt')
+        id_21 = EndingNoChallengeScene('End_Surrender_Town.txt')
         # We'll Join You
-        id_22 = EndingNoChallengeScene('Script_Placeholder.txt')
+        id_22 = EndingNoChallengeScene('End_Join.txt')
         # Surrender or Die
-        id_23 = SoDScene('Script_Placeholder.txt', 'Script_Placeholder.txt')
+        id_23 = SoDScene('End_Hero.txt', 'End_Last_Standing.txt')
         # Break-In and Surprise Attack.
-        id_24 = StandardScene(['Rush Leader', 'Overwhelm Them'], [25, 26], 'Script_Placeholder.txt')
+        id_24 = StandardScene(['Rush Leader', 'Overwhelm Them'], [25, 26], 'Script_Break_In.txt')
         # Go for the Leader.
-        id_25 = EndingChallengeScene('Script_Placeholder.txt', 'gun', 'Script_Placeholder.txt', 'Script_Placeholder.txt')
+        id_25 = EndingChallengeScene('Script_Go_Leader.txt', 'gun', 'End_Equalizer.txt', 'End_Naive.txt')
         # Overwhelm Them.
-        id_26 = EndingChallengeScene('Script_Placeholder.txt', 'sally squad', 'Script_Placeholder.txt', 'Script_Placeholder.txt')
+        id_26 = EndingChallengeScene('Script_Overwhelm.txt', 'sally squad', 'End_Rush.txt', 'End_Alone.txt')
 
         # Contain all instantiated scenes in a list that can be called with the scene_id.
         id_list = [id_00, id_01, id_02, id_03, id_04, id_05, id_06, id_07, id_08, id_09, id_10, id_11, id_12, id_13, id_14, id_15, id_16, id_17, id_18, id_19, id_20, id_21, id_22, id_23, id_24, id_25, id_26]
@@ -141,7 +141,7 @@ class BaseScene:
     # If true: Feed choices & scene_id_list into choose method; feed return value into ScenePicker.
     # If false: Print a debug line that informs me I'm missing an argument somewhere.
     def scene_operator(self, player):
-        if len(self.choices) > 1:
+        if len(self.choices) > 0:
             scene = Choose.choose(self.choices, self.scene_id_list)
             ScenePicker.scene_picker(scene)
         else:
@@ -275,12 +275,12 @@ class ButcherScene(BaseScene):
             if item == 'sally squad':
                 print("Sally's gang have the numbers for a direct confrontation.")
                 self.choices.append('confront marauders')
-                self.scene_id_list(18)
+                self.scene_id_list.append(18)
             if item == 'axe':
                 print("A quick-footed break-in with mother's axe might grant the advantage of total surprise.")
                 self.choices.append('break in')
-                self.scene_id_list(24)
-        print("Valid Choices: " + self.choices)
+                self.scene_id_list.append(24)
+        print("Valid Choices: ", self.choices)
         self.scene_operator(player)
 
     def scene_operator(self, player):
@@ -309,5 +309,7 @@ class SoDScene(BaseScene):
 # Instantiate player class into an object and generate their name/gender to replace default variable contents.
 player1 = PlayerLoader('StandardMcDefault', ['he', 'him', 'his', 'himself'], [])
 player1.character_gen()
+player1.inventory.append('sword')
+player1.inventory.append('axe')
 # Start trigger.
 ScenePicker.scene_picker(0)
