@@ -1,0 +1,7 @@
+	Whether wise or not, {name} decided that {he} couldn't live with the shame of not at least attempting to find and rescue {his} family.
+	Setting out onto the open streets, {name} ducks into alleyways and avoids the open streets for fear of being ambushed.
+	After but a handful of passing moments, {his} search turns up something interesting. It wasn't a member of {his} family, but a marauder--dragging a body through the streets.
+	It was clear the marauder was headed somewhere with the corpse--possibly where all the loot and prisoners were being gathered. If {he} followed along, {he} might find where {his} family was located.
+	On the other hand, with the marauder preoccupied, there was a chance that {name} could overcome the marauder's superior strength and skill with sheer surprise...
+
+Choices: Follow Them | Ambush Them

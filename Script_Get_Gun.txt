@@ -1,0 +1,5 @@
+	Sally's screams for help were in vain as {name} dashed across from the window and snatched the firearm off its perch. There was little to do but escape as the inferno destroyed the building--and took Sally with it.
+	From this point onward, {name} would be on his own... but at least he'd have a gun--the great equalizer in contests of strength and skill. It only had one shot, though, so {he} would have to spend it wisely.
+	As {he} makes his way outside {name} thinks over the direction which the marauder was going in and set off in that direction. {name} felt a growing wariness in the pit of {his} stomach. One way or another, {he} was committed to this path.
+
+Choice: Continue Story

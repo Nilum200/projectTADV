@@ -1,0 +1,5 @@
+	It would be a mistake to throw {himself} at such a dangerous foe, even with the element of surprise. Safer to shadow his movements and see where he's going, then make a plan on the other side.
+	Unfortunate, then, that amidst the burning buildings {he} overhears shrieks from someone in need of help.
+	The marauder wasn't slowing down, but to divert and help the person in danger would mean losing sight of the man leading {name} to where his family may be.
+
+Choices: Go Help | Keep Following

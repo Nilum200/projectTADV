@@ -1,0 +1,9 @@
+	Without the protection of the guards, it was unlikely that {name} would make it anywhere on {his} own. So {he} set out to find them.
+	Thankfully, the marauders raiding {his} town seemed more focused upon loot and mayhem than hunting {him} down specifically. As such, {he} managed to find his way to the centre of town.
+	There several guards and some survivors had barricaded the streets and alleyways. Recognizing {name}, they permitted {him} to cross. After asking a few questions, {he} got access to the guard captain--Sir Johnny Swordfish.
+	"I'm sorry--your family isn't here," he said. "It's possible they're elsewhere in town--but trying to find them is dangerous."
+	"If you aren't up for the danger, I would ask that you escape town and warn the King that the marauders have crossed the border. If he's made aware, then the rest of the kingdom can be saved from these vicious vagabonds before it's too late."
+	"Whatever you decide, {name}, I trust that you will do the right thing."
+	As the guard captain walks away, {name} is left to contemplate whether to continue the search for {his} family, or to escape town while {he} still has the chance.
+
+Choices: Escape Town | Find Family

@@ -1,0 +1,7 @@
+	Whatever Sally's petty crimes, dying in an inferno was neither worthy nor humane. {name} set {himself} to the task of breaking through the window and rolling to Sally's side. Between her struggling and {his} elbow grease, she was set free.
+	Together, they bowl through the window and escape as the structure is consumed in flames. A loud pop is sufficient to confirm the destruction of the gun, leaving {name} with Sally alone.
+	Not that Sally seems to mind, as she gives {him} a quick peck on the cheek and a savage-toothed grin. "These fucks are messin' with US," she said. "C'mon--let's go gather my pals and show em'!"
+	After a few minutes of sneaking and whispering, Sally's Gang--a motley crew of club/dagger/axe wielding youths--were assembled. They'd likely struggle going going toe-to-toe with the marauders, but if they could add another advantage or two, it could be enough.
+	One of the members of Sally's Gang knew where prisoners and loot was being taken. So, without further adieu...
+
+Choice: Continue Story

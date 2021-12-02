@@ -1,0 +1,4 @@
+	A quick-paced move with {his} father's sword is sufficient to put the marauder down, but not before the marauder takes a last-ditch opportunity swing with his own weapon. This, unfortunately, destroys {name}'s father's sword.
+	Still, the marauder lies dead. One less danger afoot, but perhaps {name} should remember in future that {he} makes a better villager than warrior.
+
+Choices: Continue Story

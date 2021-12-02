@@ -1,0 +1,6 @@
+	A building is burning and a pitched cry for help grows louder as {name} approaches. A quick peek through a window reveals two items of interest.
+	The first is Sally--the town Queen of Crooks, Thugs, and Petty Criminals--pinned beneath a burning beam. Were she freed, it's very possible that {he} could add numbers to his list of advantages, but, could she be trusted?
+	The second is a gun--little more than a single-shot pistol--sitting on a shelf. It could prove useful, but the shelf was on the verge of being consumed by the flames, and gunpowder was quite explosive when heated...
+	It was unfortunate, then, that {name} would only have time for one or the other--not both.
+
+Choices: Save Gun | Save Sally
