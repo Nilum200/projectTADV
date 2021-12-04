@@ -43,7 +43,7 @@ class ScenePicker(object):
         # Escape Town.
         id_05 = StandardScene(['Help Sister', 'Leave Sister'], [6, 7], 'Script_Escape_Town.txt')
         # Save sister.
-        id_06 = EndingChallengeScene('Escape_Town_Script.txt', 'sword', 'End_Messenger.txt', 'End_Marauder.txt')
+        id_06 = EndingChallengeScene('Script_Escape_Town.txt', 'sword', 'End_Messenger.txt', 'End_Marauder.txt')
         # Leave sister.
         id_07 = EndingNoChallengeScene(script='End_Survivors_Guilt.txt')
         # Search for Family/Discover the Enemy.
@@ -65,13 +65,13 @@ class ScenePicker(object):
         # Rescue Parents.
         id_16 = EndingNoChallengeScene('Script_Rescue_Parents.txt')
         # Assassinate the Leader.
-        id_17 = EndingChallengeScene('Script_Assassinate_Leader.txt', 'gun', 'Script_Equalizer.txt', 'Script_Naive.txt')
+        id_17 = EndingChallengeScene('Script_Assassinate_Leader.txt', 'gun', 'End_Equalizer.txt', 'End_Naive.txt')
         # Confrontation.
         id_18 = StandardScene(['Duel', 'Negotiate'], [19, 20], 'Script_Confrontation.txt')
         # Duel to the Death.
         id_19 = EndingChallengeScene('Script_Duel.txt', 'axe', 'End_Sacrifice.txt', 'End_Really.txt')
         # Negotiate
-        id_20 = StandardScene([ 'Surrender Town', 'Join', 'Demand Surrender'], [21, 22, 23], 'Script_Negotiate.txt')
+        id_20 = StandardScene(['Surrender Town', 'Join', 'Demand Surrender'], [21, 22, 23], 'Script_Negotiate.txt')
         # Surrender Town, Spare Family
         id_21 = EndingNoChallengeScene('End_Surrender_Town.txt')
         # We'll Join You
@@ -288,16 +288,17 @@ class ButcherScene(BaseScene):
 
 
 class SoDScene(BaseScene):
-    def __init__(self, script, bad_end, choices='', scene_id_list=''):
+    def __init__(self, good_end, bad_end, script='', choices='', scene_id_list=''):
         super().__init__(script, choices, scene_id_list)
         self.bad_end = bad_end
+        self.good_end = good_end
 
     def scene_reader(self, player):
         good_end = False
         # I wonder if this is more efficient than for loops... theoretically it should be.
         if 'sword' in player.inventory and 'axe' in player.inventory:
             good_end = True
-            text = open(self.script)
+            text = open(self.good_end)
             text = text.read()
             print(text.format(name=player.name, he=player.gender[0], him=player.gender[1], his=player.gender[2], himself=player.gender[3]))
         if not good_end:
@@ -309,7 +310,5 @@ class SoDScene(BaseScene):
 # Instantiate player class into an object and generate their name/gender to replace default variable contents.
 player1 = PlayerLoader('StandardMcDefault', ['he', 'him', 'his', 'himself'], [])
 player1.character_gen()
-player1.inventory.append('sword')
-player1.inventory.append('axe')
 # Start trigger.
 ScenePicker.scene_picker(0)
